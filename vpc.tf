@@ -13,5 +13,4 @@ module "vpc" {
   public_subnet_assign_ipv6_address_on_creation = "false"
   redshift_subnet_assign_ipv6_address_on_creation = "false"
   cidr = "10.0.0.0/16"  
-  region = "us-west-2"
 }
